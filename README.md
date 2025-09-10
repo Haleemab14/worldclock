@@ -1,8 +1,9 @@
+
 ---
 
 # 🕰️ Timezone Clock with Animated Hands
 
-A web-based clock that shows **time and date for any selected city/timezone**, with:
+A web-based clock that shows time and date for any selected city/timezone, with:
 
 * **Analog clock hands** (`long1` = hour hand, `long2` = minute hand) that rotate smoothly.
 * **Digital time & date display** (updated every second).
