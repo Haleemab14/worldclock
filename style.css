@@ -1,0 +1,142 @@
+* body {
+    margin: 0%;
+    padding: 0%;
+}
+body,
+.color{
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+#itsmain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 370px;
+}
+
+
+#itsmain img,
+#itsmain svg {
+    position: absolute;
+}
+
+#itsmain svg {
+    z-index: 0;
+}
+
+#itsmain img {
+    width: 650px;
+    height: 650px;
+    z-index: 2;
+}
+
+.design {
+    position: absolute;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 20px 65px;
+}
+
+.city,
+.country {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.country {
+    margin-top: 0px !important;
+}
+
+.time {
+    font-size: 120px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.date,
+.year {
+    font-size: 40px;
+    margin-top: -100px;
+    margin-left: 1200px;
+}
+
+.year {
+    margin-top: 0px !important;
+}
+
+#cit,
+#count {
+    font-size: 20px;
+    margin-top: -550px;
+    margin-left: 1150px;
+    cursor: pointer;
+}
+
+#count {
+    margin-left: 1350px !important;
+}
+
+#long1,
+#long2 {
+    position: absolute;
+    z-index: 2;
+    height: 220px;
+    left: 50%;
+    width: 17px;
+    top: 19%;
+    background-color: black;
+    border-radius: 30px;
+    transform-origin: bottom center;
+}
+
+#long2 {
+    height: 180px !important;
+    top: 24%;
+}
+
+#images {
+    position: relative;
+}
+
+.watch {
+    position: absolute;
+    z-index: 1;
+}
+
+.clock {
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    top: 100px;
+    left: 410px;
+}
+
+.black,
+.moon {
+    height: 350px !important;
+    width: 550px !important;
+    top: 190px !important;
+    left: 490px !important;
+}
+
+.backimages {
+    position: relative;
+}
+
+.backs {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
