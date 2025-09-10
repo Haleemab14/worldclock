@@ -107,8 +107,3 @@ if (timezone) {
   updateClock(timezone);
   clockInterval = setInterval(() => updateClock(timezone), 1000);
 }
-// create a Date object
-const now = new Date();
-console.log(now);
-console.log(now.getHours() + ":" + now.getMinutes());
-
