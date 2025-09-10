@@ -83,5 +83,3 @@ Just double-click `index.html` or serve with VSCode Live Server.
 
 ---
 
-
-👉 Do you also want me to include **usage instructions for contributors** (like “how to add a new city/timezone option”), or keep README just for running the clock?
